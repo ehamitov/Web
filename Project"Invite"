@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Invite"</title>
+        <style>
+        #pic {
+            width: 80px;
+            float: left;
+            margin-right: 6px;
+            margin-bottom: 6px;
+            
+        }
+        #contact {
+            background-color: rgb(232, 232, 232);
+            color:red;
+            padding: 2px;
+            clear: both;
+        }
+        #if {
+            overflow:auto;
+        }
+        #few{
+            color:red;
+            font-weight:bold;
+        }
+        .info{
+            background-color:rgb(209, 170, 42);
+            font-style:italic;
+        }
+        #cost {
+            color:red;
+        }
+        
+        #list {
+            color:red;
+        }
+        
+        </style>
+    </head>
+    <body>
+        
+     
+    
+      
+    <p id="invite">
+    <img id="pic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wedding-invitation-cards.jpg/255px-Wedding-invitation-cards.jpg">
+      Hi I invite you to a party in honor of me , zero two. Below you will find information, as well as a link to confirm if you come.
+      <ul id="if">
+          <li ><a href="#cost"> Cost</a></li>
+          <li ><a href="#list"> People can you see</a></li>
+          <li><a href="#contact">Link</a></li>
+      </ul>
+    </p>
+    <div class="info">
+    <h2 id="cost">Cost</h2>
+    <p>There is <span id="few">no need to pay</span>, just your presence and the money for the taxi.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cabs.jpg/413px-Cabs.jpg" width="300">
+    <h2 id="list">Invited</h2>
+    <table>
+        <thead>
+            <tr>
+                <th> <em>number</em> </th>
+                <th><em> name </em></th>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Eirich</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>zero</td>
+        </tr>
+    </tbody>
+    </table>
+    <h3 id="contact">Link</h3>
+    <p id="contact">Contact me for more info zerotwo@gmail.com.</p>
+    </div>
+    
+    </body>
+</html>
