@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Microsoft.Official page</title>
+    <link rel="shortcut icon" href="microsoft.png" type="image/png">
+    <style>
+        .first{
+            display: block;
+            position: absolute;
+            top: -10px;
+            right: 0;
+            bottom: 0;
+            left: 85px;
+        }
+        .supp{
+            align-items: center;
+            display: flex;
+            list-style-type: none;
+            padding-top: 8px;
+            font-family: "HelveticaNowDisplay Extralight", sans-serif;
+            width: 980px;
+            font-size: 12px;
+        }
+        .lg{
+            text-decoration: none;
+            color: #262626;
+        }
+
+        .lg:hover{
+            text-decoration: underline;
+        }
+        p{
+            font-family: "HelveticaNowDisplay Black", sans-serif;
+            text-decoration: none;
+            width: 520px;
+            line-height: 22px;
+        }
+
+        .ms{
+            text-decoration: none;
+            color: #262626;
+        }
+
+        .for-one{
+            font-family: "HelveticaNowDisplay Black", sans-serif;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 15px;
+        }
+
+        .for-one:hover{
+            text-decoration: underline;
+        }
+
+        .for-six{
+            font-family: "HelveticaNowDisplay Black", sans-serif;
+            text-decoration: none;
+            font-weight: 550;
+            font-size: 15px;
+        }
+
+        .for-six:hover{
+            text-decoration: underline;
+        }
+        .ms365{
+            margin-top:-375px;
+            margin-left: 80px;
+            text-decoration: none;
+        }
+        .second{
+            margin-top:235px;
+            display: flex;
+        }
+        .bottom{
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        .txt{
+            font-family: "HelveticaNowDisplay Black", sans-serif;
+            text-decoration: none;
+            color: black;
+        }
+        .txt1{
+            width: 342px;
+        }
+        .extra-link{
+            text-decoration: none;
+            border: none;
+            background-color: inherit;
+            color: #0067B8;
+            font-size: 15px;
+        }
+
+        .extra-link:hover{
+
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <div>
+            <ui class="supp">
+                <li><img src="ms.png" class="lg"></li>
+                <li><a href="https://www.microsoft.com/microsoft-365" class="lg">Microsoft 365</a></li>&emsp;&emsp;
+                <li><a href="https://www.microsoft.com/microsoft-365/microsoft-office" class="lg">Office</a></li>&emsp;&emsp;
+                <li><a href="https://www.microsoft.com/ru-ru/windows/" class="lg">Windows</a></li>&emsp;&emsp;
+                <li><a href="https://support.microsoft.com/ru-ru" class="lg">Поддержка</a></li>
+            </ui>
+        </div>
+        <a style="text-decoration: none" href="https://www.microsoft.com/ru-kz/microsoft-365/p/microsoft-365-family/cfq7ttc0k5dm?icid=mscom_marcom_H1a_M365Family">
+            <div class="ms">
+                <img  src="main.png" width="1400">
+                <h1 class="ms365" >Microsoft 365</h1>
+                <p class="about-ms-365" style="margin-left: 80px">Приложения Office премиум, дополнительное облачное хранилище, продвинутые инструменты обеспечения безопасности — все в одной удобной подписке</p>
+                <div>
+                    <button  style="background-color:black; color: white; border: none;
+                        width: 156px; height:39.5px; margin-left: 80px" type="button"><span class="for-six">До 6 человек</span></button>
+
+                    <button style="background-color:inherit; border: none;
+                        width: 156px; height:39.5px; margin-left: 10px" type="button"><span class="for-one">Для 1 человека</span></button>
+                </div>
+            </div>
+        </a>
+        <div class="second">
+            <a class="bottom"  href="https://www.microsoft.com/ru-ru/microsoft-365/microsoft-teams/group-chat-software?icid=mscom_marcom_CPH1a_Teams" >
+                <div>
+                    <img src="teams.png" width="332">
+                    <h3 class="txt" >Microsoft Teams</h3>
+                    <p class="txt txt1" >Общайтесь, проводите собрания, звоните и сотрудничайте.</p>
+                    <button class="extra-link"  type="button">Подробнее</button>
+                </div>
+            </a >
+
+            <a class="bottom"  href="https://www.microsoft.com/ru-ru/edge?form=MI13F3&OCID=MI13F3">
+                <div>
+                    <img src="edge.png" width="332">
+                    <h3 class="txt" >Microsoft Edge</h3>
+                    <p class="txt txt1" >Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+                    <button class="extra-link"  type="button">Скачать</button>
+                </div>
+            </a>
+            <a class="bottom" style="text-decoration: none" href="https://www.microsoft.com/ru-ru/microsoft-365/onedrive/online-cloud-storage?icid=mscom_marcom_CPH3a_OneDrive" target="_blank">
+                <div>
+                    <img src="onedrive.png" width="332" >
+                    <h3 class="txt" >Microsoft OneDrive</h3>
+                    <p class="txt txt1" >Сохраняйте свои файлы и фотографии на OneDrive — они будут доступны с любого устройства и где угодно.</p>
+                    <button class="extra-link" type="button">Подробнее</button>
+                </div>
+            </a>
+            <a class="bottom" style="text-decoration: none" href="https://www.microsoft.com/ru-ru/windows/features?icid=mscom_marcom_CPH4a_Windows10" target="_blank">
+                <div>
+                    <img src="update.png" width="332">
+                    <h3 class="txt" >Обновление Windows 10</h3>
+                    <p class="txt txt1" >Предоставляя новые функции, которые помогут вам успевать больше, общаться чаще и экономить время.</p>
+                    <button class="extra-link" type="button">Узнать больше</button>
+                </div>
+            </a>
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
