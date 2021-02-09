@@ -192,6 +192,7 @@
             font-weight: 600;
             position: relative;
             vertical-align: top;
+            border:none;
         }
     </style>
 </head>
