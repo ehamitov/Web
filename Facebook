@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome to Facebook</title>
+    <link rel="shortcut icon" href="facebok.png" type="image/png">
     <style>
         .main{
             background-color: rgb(240,242,245);
